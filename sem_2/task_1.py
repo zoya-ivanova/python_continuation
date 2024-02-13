@@ -9,4 +9,5 @@ print(hex(num))
 while num > 0:
     result = str(num % HEX) + result
     num = num // HEX
-    print(result)
+    print('Ox' + result)
+
